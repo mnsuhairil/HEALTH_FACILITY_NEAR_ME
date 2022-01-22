@@ -105,6 +105,16 @@
                 android:text="@string/signup_redirect"
                 android:textColor="@color/black" />
 
+            <ProgressBar
+                android:id="@+id/progressBarLog"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:visibility="invisible"
+                android:indeterminateTint="@color/red"
+                />
+
         </LinearLayout>
 
 

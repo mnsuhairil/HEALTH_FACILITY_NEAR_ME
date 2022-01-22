@@ -32,6 +32,7 @@ public class SignupActivity extends AppCompatActivity {
 
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,7 +44,7 @@ public class SignupActivity extends AppCompatActivity {
         fullname=findViewById(R.id.atvFullnameReg);
         userName=findViewById(R.id.atvUsernameReg);
         btnRegister=findViewById(R.id.btnSignUp);
-        progressBar=findViewById(R.id.progressBar);
+        progressBar=findViewById(R.id.progressBarReg);
         Phone = findViewById(R.id.atvPhoneReg);
 
 
@@ -53,6 +54,8 @@ public class SignupActivity extends AppCompatActivity {
 
 
         btnRegister.setOnClickListener(v -> {
+
+            progressBar.setVisibility(View.VISIBLE);
 
             String uemail=inputEmail.getText().toString();
             String password1=pass1.getText().toString();
@@ -65,34 +68,40 @@ public class SignupActivity extends AppCompatActivity {
             if (uname.isEmpty()){
                 Toast.makeText(SignupActivity.this, "User Name is required", Toast.LENGTH_SHORT).show();
                 userName.requestFocus();
+                progressBar.setVisibility(View.INVISIBLE);
                 return;
             }
             else if (fname.isEmpty()){
                 Toast.makeText(SignupActivity.this, "Full Name is required", Toast.LENGTH_SHORT).show();
                 fullname.requestFocus();
+                progressBar.setVisibility(View.INVISIBLE);
                 return;
             }
             else if (uemail.isEmpty()){
                 Toast.makeText(SignupActivity.this, "Email is required", Toast.LENGTH_SHORT).show();
                 inputEmail.requestFocus();
+                progressBar.setVisibility(View.INVISIBLE);
                 return;
             }
             else if (password1.isEmpty()||password2.isEmpty()) {
                 Toast.makeText(SignupActivity.this, "Password is required", Toast.LENGTH_SHORT).show();
                 pass1.requestFocus();
                 pass2.requestFocus();
+                progressBar.setVisibility(View.INVISIBLE);
                 return;
             }
             else if (password1.length()<6||password2.length()<6){
                 Toast.makeText(SignupActivity.this, "Password Must Be More or Equal than 6 Characters", Toast.LENGTH_SHORT).show();
                 pass1.requestFocus();
                 pass2.requestFocus();
+                progressBar.setVisibility(View.INVISIBLE);
                 return;
             }
             else if (!password1.equals(password2)){
                 Toast.makeText(SignupActivity.this, "Password and confirm password must be same", Toast.LENGTH_SHORT).show();
                 pass1.requestFocus();
                 pass2.requestFocus();
+                progressBar.setVisibility(View.INVISIBLE);
                 return;
             }
             else if(password1==password2){
@@ -114,6 +123,7 @@ public class SignupActivity extends AppCompatActivity {
                                         public void onComplete(@NonNull Task<Void> task) {
                                             if (task.isSuccessful()){
                                                 Toast.makeText(SignupActivity.this, "User created succesfully", Toast.LENGTH_SHORT).show();
+                                                progressBar.setVisibility(View.INVISIBLE);
                                                 Intent intent = new Intent(SignupActivity.this, LoginActivity.class);
                                                 startActivity(intent);
                                             }else {

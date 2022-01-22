@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -34,6 +35,8 @@ public class ProfileActivity extends AppCompatActivity {
     private String userID;
     FirebaseDatabase fDatabase;
     DatabaseReference dRef;
+
+    ProgressBar progressBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -92,6 +95,7 @@ public class ProfileActivity extends AppCompatActivity {
         final TextView usernameTextView = findViewById(R.id.unameViewProf);
         final TextView emailTextView = findViewById(R.id.emailViewProf);
         final TextView phoneTextView = findViewById(R.id.atvPhoneProf);
+        progressBar=findViewById(R.id.progressBar);
 
 
         reference.child(userID).addListenerForSingleValueEvent(new ValueEventListener() {
@@ -109,6 +113,8 @@ public class ProfileActivity extends AppCompatActivity {
                     usernameTextView.setText(username);
                     emailTextView.setText(useremail);
                     phoneTextView.setText(phonenumber);
+
+                    progressBar.setVisibility(View.INVISIBLE);
                 }
 
             }

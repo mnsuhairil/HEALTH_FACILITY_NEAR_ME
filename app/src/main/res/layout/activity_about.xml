@@ -115,16 +115,16 @@
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="86dp"
-        android:layout_height="122dp"
+        android:layout_width="89dp"
+        android:layout_height="95dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="11dp"
-        android:layout_marginLeft="11dp"
-        android:layout_marginBottom="215dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="227dp"
         android:gravity="center"
-        android:src="@color/black" />
+        android:src="@drawable/fairunpic" />
 
     <TextView
         android:id="@+id/textView9"
@@ -193,8 +193,10 @@
         android:layout_width="match_parent"
         android:layout_height="43dp"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="0dp"
         android:layout_marginTop="444dp"
@@ -203,9 +205,7 @@
         android:text="Clickable URL"
         android:textColor="@color/black"
         android:textSize="21sp"
-        android:textStyle="bold"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/githubID"
