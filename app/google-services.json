@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "234748094323",
+    "project_id": "health-facility-near-me",
+    "storage_bucket": "health-facility-near-me.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234748094323:android:718290bff1d80831460706",
+        "android_client_info": {
+          "package_name": "com.example.healthfacilitynearme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234748094323-02mp06q6lu6me424ts83t79600jc6hps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb9z4dZFuRd2KD8N86ubFgdurkK_Fj0gc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234748094323-02mp06q6lu6me424ts83t79600jc6hps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:background="@drawable/gradientbackground">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:text="ABOUT US"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <ImageView
+        android:layout_width="334dp"
+        android:layout_height="109dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="329dp"
+        android:src="@drawable/gradientbackground"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="57dp" />
+
+    <ImageView
+        android:layout_width="334dp"
+        android:layout_height="109dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginLeft="57dp"
+        android:layout_marginTop="206dp"
+        android:src="@drawable/gradientbackground" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="86dp"
+        android:layout_height="122dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="198dp"
+        android:gravity="center"
+        android:src="@drawable/rahpic"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="11dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="219dp"
+        android:fontFamily="@font/audiowide"
+        android:gravity="center"
+        android:text="NUR FITRAH BINTI BAHSRI"
+        android:layout_marginLeft="102dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="250dp"
+        android:fontFamily="@font/audiowide"
+        android:gravity="center"
+        android:text="2020489584"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="101dp" />
+
+    <ImageView
+        android:layout_width="334dp"
+        android:layout_height="109dp"
+
+        android:layout_alignTop="@id/imageView5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="19dp"
+        android:baselineAlignBottom="false"
+        android:src="@drawable/gradientbackground"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="58dp"
+        android:layout_marginRight="19dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="86dp"
+        android:layout_height="122dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginBottom="215dp"
+        android:gravity="center"
+        android:src="@color/black" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="341dp"
+        android:fontFamily="@font/audiowide"
+        android:gravity="center"
+        android:text="FAIRUN NASUHA BINTI MOHAMAD FAUDZI"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="104dp" />
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="279dp"
+        android:layout_marginEnd="28dp"
+        android:fontFamily="@font/audiowide"
+        android:gravity="center"
+        android:text="T5CS2703B"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="101dp"
+        android:layout_marginRight="28dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="386dp"
+        android:fontFamily="@font/audiowide"
+        android:gravity="center"
+        android:text="2020615302"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="100dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="411dp"
+        android:fontFamily="@font/audiowide"
+        android:gravity="center"
+        android:text="T5CS2703B"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="101dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="444dp"
+        android:layout_marginEnd="0dp"
+        android:gravity="center"
+        android:text="Clickable URL"
+        android:textColor="@color/black"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/githubID"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginRight="134dp"
+        android:text="@string/githublink"
+        android:textColorLink="@color/newGreen" />
+
+    <TextView
+        android:id="@+id/youtubeID"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="491dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginRight="109dp"
+        android:text="@string/youtubelink"
+        android:textColorLink="@color/newGreen" />
+
+
+    <TextView
+        android:id="@+id/emailID"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginLeft="146dp"
+        android:layout_marginTop="548dp"
+        android:text="@string/emaillink"
+        android:textColorLink="@color/newGreen" />
+
+
+    <ImageView
+
+        android:layout_width="61dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="548dp"
+        app:srcCompat="@drawable/email" />
+
+    <ImageView
+        android:layout_width="61dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="491dp"
+        app:srcCompat="@drawable/youtube"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="72dp" />
+
+    <ImageView
+        android:layout_width="61dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="520dp"
+        app:srcCompat="@drawable/github" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="31dp"
+        app:itemBackground="@color/newGreen"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/menu_navigation" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/gradientbackground">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:text="ABOUT US"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="86dp"
+        android:layout_height="122dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="74dp"
+        android:paddingTop="5dp"
+        android:src="@drawable/mypic" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="90dp"
+        android:fontFamily="@font/audiowide"
+        android:gravity="center"
+        android:text="MUHAMMAD NUR SUHAIRIL BIN SULUM"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="103dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="138dp"
+        android:fontFamily="@font/audiowide"
+        android:gravity="center"
+        android:text="2020897584"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="103dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="166dp"
+        android:fontFamily="@font/audiowide"
+        android:gravity="center"
+        android:text="T5CS2703B"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="102dp" />
+
+
+</RelativeLayout>
+
